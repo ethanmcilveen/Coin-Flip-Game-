@@ -1,4 +1,4 @@
-//  Author: Ethan Mcilveen, 000858082
+//  Author: Ethan Mcilveen
 // Date: February 28, 2022	
 // Javascript for coin flip game
 
