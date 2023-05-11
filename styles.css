@@ -1,0 +1,97 @@
+/**  Author: Ethan Mcilveen, 000858082	**/
+/**  Date: February 28, 2022	**/
+/**  Assignment 4 style sheet **/
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Helvetica, sans-serif;
+	height: 100%;
+	background-image: linear-gradient(to top, #5b7085, #7e899b, #a0a4b1, #c0c0c7, #dedede);
+}
+
+header p, h2{
+	text-align: center;
+}
+
+#image{
+	background-image: url("assets/images/heads.png");
+	width: 150px;
+	height: 150px;
+	background-repeat: no-repeat ;
+	background-size: cover;
+}
+
+#center{
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.container{
+	background-color: #ffffff;
+	width: 60%;
+	padding: 25px;
+	border-radius: 15px;
+}
+
+#formSubmit{
+	margin: 5px;
+}
+
+.selection:last-of-type{
+	float: right;
+}
+
+.container{
+	visibility: hidden;
+	margin-bottom: 250px;
+}
+
+.score{
+	display: flex;
+	margin: auto;
+	width: 60%;
+	padding: 15px;
+	margin-bottom: 5px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	/* box shadow found from template at https://getcssscan.com/css-box-shadow-examples*/
+}
+
+#comp{
+	margin-left: 50px;
+}
+
+#namesValid{
+	color:black ;
+}
+
+#usernameAndScore{
+	padding-left: 10px;
+	width: 65%;
+	margin: auto;
+	border-radius: 15px;
+}
+
+#username, #score{
+	width: 35%;
+}
+
+#moveUp{
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
+
+#allButtons{
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+
+#reset{
+	margin-left:5px ;
+}
+
