@@ -1,5 +1,5 @@
 //  Author: Ethan Mcilveen, 000858082
-// Date: May	
+// Date: February 28, 2022	
 // Javascript for coin flip game
 
 let heads = 1; // variables
