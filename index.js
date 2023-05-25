@@ -1,5 +1,5 @@
 //  Author: Ethan Mcilveen, 000858082
-// Date: February 28, 2022	
+// Date: May	
 // Javascript for coin flip game
 
 let heads = 1; // variables
@@ -95,6 +95,7 @@ function resetGame(){
 	let resetComp = document.querySelector('#compScore');
 	resetPlayer.textContent = 0;
 	resetComp.textContent = 0;
+	validateForm();
 }
 
   /**
@@ -185,6 +186,8 @@ function validateForm(){
 	if (username != ""){
 		document.getElementById("container").style.visibility="visible"; // shows game and help message when username is valid
 		document.getElementById("namesValid").innerHTML = "<h2>Welcome '"+ username +"', beat the computer in this thrilling game of coin flip. First to "+ score + " point(s) wins!</h2>";	
+		document.querySelector('#heads').style.visibility= "visible"
+		document.querySelector('#tails').style.visibility= "visible"
 	}else{
 		document.getElementById("namesValid").innerHTML = "<h2>Please enter a username above</h2>";
 		document.getElementById("container").style.visibility="hidden"; // shows game and help message when username is valid
